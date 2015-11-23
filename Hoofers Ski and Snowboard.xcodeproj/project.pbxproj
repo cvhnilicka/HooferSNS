@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874A2CAF1C039D8C002E7A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */; };
+		874A2CB11C039D8C002E7A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CB01C039D8C002E7A48 /* ViewController.swift */; };
+		874A2CB41C039D8C002E7A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874A2CB21C039D8C002E7A48 /* Main.storyboard */; };
+		874A2CB61C039D8C002E7A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874A2CB51C039D8C002E7A48 /* Assets.xcassets */; };
+		874A2CB91C039D8C002E7A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874A2CB71C039D8C002E7A48 /* LaunchScreen.storyboard */; };
+		874A2CC41C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CC31C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift */; };
+		874A2CCF1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CCE1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		874A2CC01C039D8D002E7A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874A2CA31C039D8C002E7A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874A2CAA1C039D8C002E7A48;
+			remoteInfo = "Hoofers Ski and Snowboard";
+		};
+		874A2CCB1C039D8D002E7A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874A2CA31C039D8C002E7A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874A2CAA1C039D8C002E7A48;
+			remoteInfo = "Hoofers Ski and Snowboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		874A2CAB1C039D8C002E7A48 /* Hoofers Ski and Snowboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hoofers Ski and Snowboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		874A2CB01C039D8C002E7A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		874A2CB31C039D8C002E7A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		874A2CB51C039D8C002E7A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		874A2CB81C039D8C002E7A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		874A2CBA1C039D8C002E7A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874A2CBF1C039D8D002E7A48 /* Hoofers Ski and SnowboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hoofers Ski and SnowboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874A2CC31C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoofers_Ski_and_SnowboardTests.swift; sourceTree = "<group>"; };
+		874A2CC51C039D8D002E7A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874A2CCA1C039D8D002E7A48 /* Hoofers Ski and SnowboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hoofers Ski and SnowboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874A2CCE1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoofers_Ski_and_SnowboardUITests.swift; sourceTree = "<group>"; };
+		874A2CD01C039D8D002E7A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874A2CA81C039D8C002E7A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874A2CBC1C039D8D002E7A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874A2CC71C039D8D002E7A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874A2CA21C039D8C002E7A48 = {
+			isa = PBXGroup;
+			children = (
+				874A2CAD1C039D8C002E7A48 /* Hoofers Ski and Snowboard */,
+				874A2CC21C039D8D002E7A48 /* Hoofers Ski and SnowboardTests */,
+				874A2CCD1C039D8D002E7A48 /* Hoofers Ski and SnowboardUITests */,
+				874A2CAC1C039D8C002E7A48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		874A2CAC1C039D8C002E7A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874A2CAB1C039D8C002E7A48 /* Hoofers Ski and Snowboard.app */,
+				874A2CBF1C039D8D002E7A48 /* Hoofers Ski and SnowboardTests.xctest */,
+				874A2CCA1C039D8D002E7A48 /* Hoofers Ski and SnowboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874A2CAD1C039D8C002E7A48 /* Hoofers Ski and Snowboard */ = {
+			isa = PBXGroup;
+			children = (
+				874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */,
+				874A2CB01C039D8C002E7A48 /* ViewController.swift */,
+				874A2CB21C039D8C002E7A48 /* Main.storyboard */,
+				874A2CB51C039D8C002E7A48 /* Assets.xcassets */,
+				874A2CB71C039D8C002E7A48 /* LaunchScreen.storyboard */,
+				874A2CBA1C039D8C002E7A48 /* Info.plist */,
+			);
+			path = "Hoofers Ski and Snowboard";
+			sourceTree = "<group>";
+		};
+		874A2CC21C039D8D002E7A48 /* Hoofers Ski and SnowboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				874A2CC31C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift */,
+				874A2CC51C039D8D002E7A48 /* Info.plist */,
+			);
+			path = "Hoofers Ski and SnowboardTests";
+			sourceTree = "<group>";
+		};
+		874A2CCD1C039D8D002E7A48 /* Hoofers Ski and SnowboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				874A2CCE1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift */,
+				874A2CD01C039D8D002E7A48 /* Info.plist */,
+			);
+			path = "Hoofers Ski and SnowboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874A2CAA1C039D8C002E7A48 /* Hoofers Ski and Snowboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874A2CD31C039D8D002E7A48 /* Build configuration list for PBXNativeTarget "Hoofers Ski and Snowboard" */;
+			buildPhases = (
+				874A2CA71C039D8C002E7A48 /* Sources */,
+				874A2CA81C039D8C002E7A48 /* Frameworks */,
+				874A2CA91C039D8C002E7A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hoofers Ski and Snowboard";
+			productName = "Hoofers Ski and Snowboard";
+			productReference = 874A2CAB1C039D8C002E7A48 /* Hoofers Ski and Snowboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		874A2CBE1C039D8D002E7A48 /* Hoofers Ski and SnowboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874A2CD61C039D8D002E7A48 /* Build configuration list for PBXNativeTarget "Hoofers Ski and SnowboardTests" */;
+			buildPhases = (
+				874A2CBB1C039D8D002E7A48 /* Sources */,
+				874A2CBC1C039D8D002E7A48 /* Frameworks */,
+				874A2CBD1C039D8D002E7A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874A2CC11C039D8D002E7A48 /* PBXTargetDependency */,
+			);
+			name = "Hoofers Ski and SnowboardTests";
+			productName = "Hoofers Ski and SnowboardTests";
+			productReference = 874A2CBF1C039D8D002E7A48 /* Hoofers Ski and SnowboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		874A2CC91C039D8D002E7A48 /* Hoofers Ski and SnowboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874A2CD91C039D8D002E7A48 /* Build configuration list for PBXNativeTarget "Hoofers Ski and SnowboardUITests" */;
+			buildPhases = (
+				874A2CC61C039D8D002E7A48 /* Sources */,
+				874A2CC71C039D8D002E7A48 /* Frameworks */,
+				874A2CC81C039D8D002E7A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874A2CCC1C039D8D002E7A48 /* PBXTargetDependency */,
+			);
+			name = "Hoofers Ski and SnowboardUITests";
+			productName = "Hoofers Ski and SnowboardUITests";
+			productReference = 874A2CCA1C039D8D002E7A48 /* Hoofers Ski and SnowboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874A2CA31C039D8C002E7A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cormick Hnilicka";
+				TargetAttributes = {
+					874A2CAA1C039D8C002E7A48 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = E5G65G7DF3;
+					};
+					874A2CBE1C039D8D002E7A48 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = E5G65G7DF3;
+						TestTargetID = 874A2CAA1C039D8C002E7A48;
+					};
+					874A2CC91C039D8D002E7A48 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = E5G65G7DF3;
+						TestTargetID = 874A2CAA1C039D8C002E7A48;
+					};
+				};
+			};
+			buildConfigurationList = 874A2CA61C039D8C002E7A48 /* Build configuration list for PBXProject "Hoofers Ski and Snowboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 874A2CA21C039D8C002E7A48;
+			productRefGroup = 874A2CAC1C039D8C002E7A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874A2CAA1C039D8C002E7A48 /* Hoofers Ski and Snowboard */,
+				874A2CBE1C039D8D002E7A48 /* Hoofers Ski and SnowboardTests */,
+				874A2CC91C039D8D002E7A48 /* Hoofers Ski and SnowboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874A2CA91C039D8C002E7A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874A2CB91C039D8C002E7A48 /* LaunchScreen.storyboard in Resources */,
+				874A2CB61C039D8C002E7A48 /* Assets.xcassets in Resources */,
+				874A2CB41C039D8C002E7A48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874A2CBD1C039D8D002E7A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874A2CC81C039D8D002E7A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874A2CA71C039D8C002E7A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874A2CB11C039D8C002E7A48 /* ViewController.swift in Sources */,
+				874A2CAF1C039D8C002E7A48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874A2CBB1C039D8D002E7A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874A2CC41C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874A2CC61C039D8D002E7A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874A2CCF1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		874A2CC11C039D8D002E7A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874A2CAA1C039D8C002E7A48 /* Hoofers Ski and Snowboard */;
+			targetProxy = 874A2CC01C039D8D002E7A48 /* PBXContainerItemProxy */;
+		};
+		874A2CCC1C039D8D002E7A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874A2CAA1C039D8C002E7A48 /* Hoofers Ski and Snowboard */;
+			targetProxy = 874A2CCB1C039D8D002E7A48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		874A2CB21C039D8C002E7A48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874A2CB31C039D8C002E7A48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		874A2CB71C039D8C002E7A48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874A2CB81C039D8C002E7A48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874A2CD11C039D8D002E7A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		874A2CD21C039D8D002E7A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874A2CD41C039D8D002E7A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hoofers Ski and Snowboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Hoofers-Ski-and-Snowboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		874A2CD51C039D8D002E7A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hoofers Ski and Snowboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Hoofers-Ski-and-Snowboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		874A2CD71C039D8D002E7A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hoofers Ski and SnowboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Hoofers-Ski-and-SnowboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoofers Ski and Snowboard.app/Hoofers Ski and Snowboard";
+			};
+			name = Debug;
+		};
+		874A2CD81C039D8D002E7A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hoofers Ski and SnowboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Hoofers-Ski-and-SnowboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoofers Ski and Snowboard.app/Hoofers Ski and Snowboard";
+			};
+			name = Release;
+		};
+		874A2CDA1C039D8D002E7A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hoofers Ski and SnowboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Hoofers-Ski-and-SnowboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hoofers Ski and Snowboard";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		874A2CDB1C039D8D002E7A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hoofers Ski and SnowboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Hoofers-Ski-and-SnowboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hoofers Ski and Snowboard";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874A2CA61C039D8C002E7A48 /* Build configuration list for PBXProject "Hoofers Ski and Snowboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874A2CD11C039D8D002E7A48 /* Debug */,
+				874A2CD21C039D8D002E7A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874A2CD31C039D8D002E7A48 /* Build configuration list for PBXNativeTarget "Hoofers Ski and Snowboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874A2CD41C039D8D002E7A48 /* Debug */,
+				874A2CD51C039D8D002E7A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		874A2CD61C039D8D002E7A48 /* Build configuration list for PBXNativeTarget "Hoofers Ski and SnowboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874A2CD71C039D8D002E7A48 /* Debug */,
+				874A2CD81C039D8D002E7A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		874A2CD91C039D8D002E7A48 /* Build configuration list for PBXNativeTarget "Hoofers Ski and SnowboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874A2CDA1C039D8D002E7A48 /* Debug */,
+				874A2CDB1C039D8D002E7A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 874A2CA31C039D8C002E7A48 /* Project object */;
+}
