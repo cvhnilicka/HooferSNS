@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BA65CDE5F79A7E5E7E08341 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A957073D9871DB6A8328E96 /* libPods.a */; };
 		874A2CAF1C039D8C002E7A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */; };
 		874A2CB11C039D8C002E7A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CB01C039D8C002E7A48 /* ViewController.swift */; };
 		874A2CB41C039D8C002E7A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874A2CB21C039D8C002E7A48 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		874A2CB91C039D8C002E7A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874A2CB71C039D8C002E7A48 /* LaunchScreen.storyboard */; };
 		874A2CC41C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CC31C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift */; };
 		874A2CCF1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CCE1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift */; };
+		874A2CDD1C039F34002E7A48 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CDC1C039F34002E7A48 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C3246548C1F9B6F8508EB05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2DABE57D619FCD52E2EBF76E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		874A2CAB1C039D8C002E7A48 /* Hoofers Ski and Snowboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hoofers Ski and Snowboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		874A2CB01C039D8C002E7A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		874A2CCA1C039D8D002E7A48 /* Hoofers Ski and SnowboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hoofers Ski and SnowboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		874A2CCE1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoofers_Ski_and_SnowboardUITests.swift; sourceTree = "<group>"; };
 		874A2CD01C039D8D002E7A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874A2CDC1C039F34002E7A48 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8A957073D9871DB6A8328E96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA65CDE5F79A7E5E7E08341 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D5192EC404C23CE7BD3250B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A957073D9871DB6A8328E96 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		874A2CA21C039D8C002E7A48 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,8 @@
 				874A2CC21C039D8D002E7A48 /* Hoofers Ski and SnowboardTests */,
 				874A2CCD1C039D8D002E7A48 /* Hoofers Ski and SnowboardUITests */,
 				874A2CAC1C039D8C002E7A48 /* Products */,
+				EB970C496EB898FE0428DD45 /* Pods */,
+				3D5192EC404C23CE7BD3250B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +117,7 @@
 				874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */,
 				874A2CB01C039D8C002E7A48 /* ViewController.swift */,
 				874A2CB21C039D8C002E7A48 /* Main.storyboard */,
+				874A2CDC1C039F34002E7A48 /* MainViewController.swift */,
 				874A2CB51C039D8C002E7A48 /* Assets.xcassets */,
 				874A2CB71C039D8C002E7A48 /* LaunchScreen.storyboard */,
 				874A2CBA1C039D8C002E7A48 /* Info.plist */,
@@ -125,6 +143,15 @@
 			path = "Hoofers Ski and SnowboardUITests";
 			sourceTree = "<group>";
 		};
+		EB970C496EB898FE0428DD45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DABE57D619FCD52E2EBF76E /* Pods.debug.xcconfig */,
+				0C3246548C1F9B6F8508EB05 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 874A2CD31C039D8D002E7A48 /* Build configuration list for PBXNativeTarget "Hoofers Ski and Snowboard" */;
 			buildPhases = (
+				F82E4AEC5D799700AF69B756 /* Check Pods Manifest.lock */,
 				874A2CA71C039D8C002E7A48 /* Sources */,
 				874A2CA81C039D8C002E7A48 /* Frameworks */,
 				874A2CA91C039D8C002E7A48 /* Resources */,
+				9B74E1F16B1EE8AA7EAC4F6E /* Embed Pods Frameworks */,
+				0D201F97338A7B593056EB79 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,11 +284,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D201F97338A7B593056EB79 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B74E1F16B1EE8AA7EAC4F6E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F82E4AEC5D799700AF69B756 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		874A2CA71C039D8C002E7A48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874A2CDD1C039F34002E7A48 /* MainViewController.swift in Sources */,
 				874A2CB11C039D8C002E7A48 /* ViewController.swift in Sources */,
 				874A2CAF1C039D8C002E7A48 /* AppDelegate.swift in Sources */,
 			);
@@ -398,6 +477,7 @@
 		};
 		874A2CD41C039D8D002E7A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DABE57D619FCD52E2EBF76E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Hoofers Ski and Snowboard/Info.plist";
@@ -409,6 +489,7 @@
 		};
 		874A2CD51C039D8D002E7A48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3246548C1F9B6F8508EB05 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Hoofers Ski and Snowboard/Info.plist";
@@ -485,6 +566,7 @@
 				874A2CD51C039D8D002E7A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		874A2CD61C039D8D002E7A48 /* Build configuration list for PBXNativeTarget "Hoofers Ski and SnowboardTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +575,7 @@
 				874A2CD81C039D8D002E7A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		874A2CD91C039D8D002E7A48 /* Build configuration list for PBXNativeTarget "Hoofers Ski and SnowboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +584,7 @@
 				874A2CDB1C039D8D002E7A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
