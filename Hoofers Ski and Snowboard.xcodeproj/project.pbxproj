@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BA65CDE5F79A7E5E7E08341 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A957073D9871DB6A8328E96 /* libPods.a */; };
+		872BDC9E1C068F5200044DE0 /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BDC9D1C068F5200044DE0 /* GPSViewController.swift */; };
 		874A2CAF1C039D8C002E7A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */; };
 		874A2CB11C039D8C002E7A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CB01C039D8C002E7A48 /* ViewController.swift */; };
 		874A2CB41C039D8C002E7A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874A2CB21C039D8C002E7A48 /* Main.storyboard */; };
@@ -16,6 +16,19 @@
 		874A2CC41C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CC31C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift */; };
 		874A2CCF1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CCE1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift */; };
 		874A2CDD1C039F34002E7A48 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CDC1C039F34002E7A48 /* MainViewController.swift */; };
+		878E67E81C0CDA8D0026469D /* GPSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E67E71C0CDA8D0026469D /* GPSTableViewCell.swift */; };
+		878E67EA1C0CDBA60026469D /* GPSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E67E91C0CDBA60026469D /* GPSTableViewController.swift */; };
+		878E67EC1C0CE4140026469D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E67EB1C0CE4140026469D /* SignUpViewController.swift */; };
+		878E67EE1C0CE4990026469D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E67ED1C0CE4990026469D /* SystemConfiguration.framework */; };
+		878E67F01C0CE4A30026469D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E67EF1C0CE4A30026469D /* StoreKit.framework */; };
+		878E67F21C0CE4AC0026469D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E67F11C0CE4AC0026469D /* Security.framework */; };
+		878E67F41C0CE60D0026469D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E67F31C0CE60D0026469D /* QuartzCore.framework */; };
+		878E67F61C0CE6160026469D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E67F51C0CE6160026469D /* CoreLocation.framework */; };
+		878E67F81C0CE61C0026469D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E67F71C0CE61C0026469D /* CoreGraphics.framework */; };
+		878E67FA1C0CE6250026469D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E67F91C0CE6250026469D /* CFNetwork.framework */; };
+		878E67FC1C0CEE610026469D /* libParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E67FB1C0CEE610026469D /* libParse.a */; };
+		878E67FE1C0CEE680026469D /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E67FD1C0CEE680026469D /* libBolts.a */; };
+		E79918E2A1635B9FAD5DED17 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F24AB7BF6CACB5A197650E5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +50,9 @@
 
 /* Begin PBXFileReference section */
 		0C3246548C1F9B6F8508EB05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1F24AB7BF6CACB5A197650E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DABE57D619FCD52E2EBF76E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		872BDC9D1C068F5200044DE0 /* GPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
 		874A2CAB1C039D8C002E7A48 /* Hoofers Ski and Snowboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hoofers Ski and Snowboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		874A2CB01C039D8C002E7A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +67,18 @@
 		874A2CCE1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoofers_Ski_and_SnowboardUITests.swift; sourceTree = "<group>"; };
 		874A2CD01C039D8D002E7A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		874A2CDC1C039F34002E7A48 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		8A957073D9871DB6A8328E96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		878E67E71C0CDA8D0026469D /* GPSTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSTableViewCell.swift; sourceTree = "<group>"; };
+		878E67E91C0CDBA60026469D /* GPSTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSTableViewController.swift; sourceTree = "<group>"; };
+		878E67EB1C0CE4140026469D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		878E67ED1C0CE4990026469D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		878E67EF1C0CE4A30026469D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		878E67F11C0CE4AC0026469D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		878E67F31C0CE60D0026469D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		878E67F51C0CE6160026469D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		878E67F71C0CE61C0026469D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		878E67F91C0CE6250026469D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		878E67FB1C0CEE610026469D /* libParse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParse.a; path = "Pods/../build/Debug-iphoneos/libParse.a"; sourceTree = "<group>"; };
+		878E67FD1C0CEE680026469D /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "Pods/../build/Debug-iphoneos/libBolts.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +86,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BA65CDE5F79A7E5E7E08341 /* libPods.a in Frameworks */,
+				878E67FE1C0CEE680026469D /* libBolts.a in Frameworks */,
+				878E67FC1C0CEE610026469D /* libParse.a in Frameworks */,
+				878E67FA1C0CE6250026469D /* CFNetwork.framework in Frameworks */,
+				878E67F81C0CE61C0026469D /* CoreGraphics.framework in Frameworks */,
+				878E67F61C0CE6160026469D /* CoreLocation.framework in Frameworks */,
+				878E67F41C0CE60D0026469D /* QuartzCore.framework in Frameworks */,
+				878E67F21C0CE4AC0026469D /* Security.framework in Frameworks */,
+				878E67F01C0CE4A30026469D /* StoreKit.framework in Frameworks */,
+				878E67EE1C0CE4990026469D /* SystemConfiguration.framework in Frameworks */,
+				E79918E2A1635B9FAD5DED17 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +119,16 @@
 		3D5192EC404C23CE7BD3250B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A957073D9871DB6A8328E96 /* libPods.a */,
+				878E67FD1C0CEE680026469D /* libBolts.a */,
+				878E67FB1C0CEE610026469D /* libParse.a */,
+				878E67F91C0CE6250026469D /* CFNetwork.framework */,
+				878E67F71C0CE61C0026469D /* CoreGraphics.framework */,
+				878E67F51C0CE6160026469D /* CoreLocation.framework */,
+				878E67F31C0CE60D0026469D /* QuartzCore.framework */,
+				878E67F11C0CE4AC0026469D /* Security.framework */,
+				878E67EF1C0CE4A30026469D /* StoreKit.framework */,
+				878E67ED1C0CE4990026469D /* SystemConfiguration.framework */,
+				1F24AB7BF6CACB5A197650E5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +161,10 @@
 				874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */,
 				874A2CB01C039D8C002E7A48 /* ViewController.swift */,
 				874A2CB21C039D8C002E7A48 /* Main.storyboard */,
+				878E67EB1C0CE4140026469D /* SignUpViewController.swift */,
+				878E67E91C0CDBA60026469D /* GPSTableViewController.swift */,
+				878E67E71C0CDA8D0026469D /* GPSTableViewCell.swift */,
+				872BDC9D1C068F5200044DE0 /* GPSViewController.swift */,
 				874A2CDC1C039F34002E7A48 /* MainViewController.swift */,
 				874A2CB51C039D8C002E7A48 /* Assets.xcassets */,
 				874A2CB71C039D8C002E7A48 /* LaunchScreen.storyboard */,
@@ -337,9 +385,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878E67EA1C0CDBA60026469D /* GPSTableViewController.swift in Sources */,
+				878E67EC1C0CE4140026469D /* SignUpViewController.swift in Sources */,
 				874A2CDD1C039F34002E7A48 /* MainViewController.swift in Sources */,
 				874A2CB11C039D8C002E7A48 /* ViewController.swift in Sources */,
 				874A2CAF1C039D8C002E7A48 /* AppDelegate.swift in Sources */,
+				878E67E81C0CDA8D0026469D /* GPSTableViewCell.swift in Sources */,
+				872BDC9E1C068F5200044DE0 /* GPSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,8 +532,18 @@
 			baseConfigurationReference = 2DABE57D619FCD52E2EBF76E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)\"",
+				);
 				INFOPLIST_FILE = "Hoofers Ski and Snowboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Hoofers-Ski-and-Snowboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -492,8 +554,17 @@
 			baseConfigurationReference = 0C3246548C1F9B6F8508EB05 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)\"",
+				);
 				INFOPLIST_FILE = "Hoofers Ski and Snowboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Hoofers-Ski-and-Snowboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

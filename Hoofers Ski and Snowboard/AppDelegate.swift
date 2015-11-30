@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Google
+import GoogleMaps
+//import Parse
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+       // Parse.enableLocalDatastore();
+        
+        
+       GMSServices.provideAPIKey("AIzaSyBv7qhcThWRjhJjEMbQa401XS5lF59xOgs");
+        application.statusBarHidden = true;
+        
+        
         return true
     }
 
