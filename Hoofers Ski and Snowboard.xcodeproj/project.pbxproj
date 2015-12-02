@@ -16,6 +16,7 @@
 		874A2CC41C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CC31C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardTests.swift */; };
 		874A2CCF1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CCE1C039D8D002E7A48 /* Hoofers_Ski_and_SnowboardUITests.swift */; };
 		874A2CDD1C039F34002E7A48 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2CDC1C039F34002E7A48 /* MainViewController.swift */; };
+		B4D19D311C08307E00023F5E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D19D301C08307E00023F5E /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		874A2CD01C039D8D002E7A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		874A2CDC1C039F34002E7A48 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8A957073D9871DB6A8328E96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D19D301C08307E00023F5E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				874A2CAE1C039D8C002E7A48 /* AppDelegate.swift */,
 				874A2CB01C039D8C002E7A48 /* ViewController.swift */,
 				874A2CB21C039D8C002E7A48 /* Main.storyboard */,
+				B4D19D301C08307E00023F5E /* LogInViewController.swift */,
 				874A2CDC1C039F34002E7A48 /* MainViewController.swift */,
 				874A2CB51C039D8C002E7A48 /* Assets.xcassets */,
 				874A2CB71C039D8C002E7A48 /* LaunchScreen.storyboard */,
@@ -337,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D19D311C08307E00023F5E /* LogInViewController.swift in Sources */,
 				874A2CDD1C039F34002E7A48 /* MainViewController.swift in Sources */,
 				874A2CB11C039D8C002E7A48 /* ViewController.swift in Sources */,
 				874A2CAF1C039D8C002E7A48 /* AppDelegate.swift in Sources */,
